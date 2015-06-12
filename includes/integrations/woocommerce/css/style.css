@@ -1,0 +1,14 @@
+/* adjusting highwind's position of onsale span */
+
+span.onsale {
+  margin: 100;
+}
+
+
+/* adjustment for cart page   ------------------------------  */
+
+/* changing cart-totals to float: left */
+
+.cart_totals {
+	float: left;
+}

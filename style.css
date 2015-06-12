@@ -1,0 +1,162 @@
+/*
+Theme Name: Highwind-child
+Theme URI: http://jameskoster.co.uk/highwind/
+Description: Highwind is a lightweight, free WordPress theme designed to showcase content. It features a clean, responsive design with a strong focus on typography, plus a bunch of presentational options and widgetised regions allowing you to give your site a unique touch. <a href="https://github.com/jameskoster/highwind/wiki">View Documentation</a>.
+Author: jameskoster - edited by Johannes Knorpp
+Author URI: http://jameskoster.co.uk
+Template: highwind
+Version: based on highwind's 1.2.7
+Tags: white, two-columns, left-sidebar, right-sidebar, sticky-post, threaded-comments, translation-ready, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, theme-options, light
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+FontAwesome License: SIL Open Font License - http://scripts.sil.org/OFL
+Modular Scale: http://modularscale.com/scale/?px1=16&px2=18&ra1=1.333&ra2=0
+
+Highwind WordPress Theme, Copyright 2013 jameskoster.co.uk
+Highwind is distributed under the terms of the GNU GPL
+*/
+
+
+/* Fonts Adjustments using Google Fonts ------------------------------
+
+h1, hr, b, strong {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 400;}
+
+dfn {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 300italic;}
+	
+*/
+
+
+body {
+	font-family: 'Merriweather Sans', sans-serif;
+	font-weight: 300;
+	}
+
+
+/* body {
+	font-family: 'Fjalla One', sans-serif;
+	} */
+	
+/* Header Adjustments ------------------------------ */
+
+.header {
+  padding-top: 0;
+  padding-left: 1.125em;
+  padding-bottom: 0px;
+  padding-right: 1.125em;
+  margin-left: -1.125em;
+  margin-right: -1.125em;
+  margin-bottom: 4.209em;
+  background-color: #53a1b8;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.header p.toggle-container {
+  width: 2.369em;
+  height: 2.369em;
+  margin: 0 0 0; /* was 0 0 1.777em 0 */
+}
+
+.header-bg {
+	width: 100vw;
+	height: 20.35vw;
+	margin-top: 0;
+	background-size: cover;
+}
+
+.site-description {
+	margin-bottom: 0;
+}
+
+
+/* header logo adjustments ------------------------------ */
+
+.right {
+    float: right;
+}
+
+/* basic responsive img ------------------------------ */
+
+.fixed-ratio-resize { 
+	max-width: 100vw;
+	height: 20.35vw;
+	width: auto\9; /* IE8 */
+}
+
+/* adjustments for product page  ------------------------------  */
+
+/* undo collision of Aktion span (onsale) */
+
+
+
+/* adjustments for checkout page  ------------------------------  */
+
+/* removing bullets from list */
+
+li {
+	list-style-type: none;
+}
+
+/* shrinking Gesamtzwischensumme */
+
+.cart-subtotal {
+  font-size: 80%;
+}
+
+
+@media only screen and (min-width: 769px) {
+  /* Only apply the layout if the user is on a desktop / tablet */
+
+h1 {
+	font-size: 95%;
+}
+  
+.header {
+    padding-top: 0px;
+    padding-left: 999em;
+    padding-right: 999em;
+    /* margin-top: 64px; */
+    margin-left: -999em;
+    margin-right: -999em;
+    background-color: #53a1b8;
+    background-position: center;
+  }
+
+.header-bg {
+	width: 100vw;
+	height: 10.35vw;
+	margin-top: 64px;
+	background-size: cover;
+}
+
+.site-description {
+	margin-bottom: 0;
+}
+
+
+/* header logo adjustments ------------------------------ */
+
+.img-header-logo {
+	padding-left: 5em;
+}
+
+.left {
+    float: left;
+}
+
+.translucent {
+	background-color: transparent;
+}
+
+.fixed-ratio-resize { /* basic responsive img */
+	max-width: 100vw;
+	height: 10.35vw;
+	width: auto\9; /* IE8 */
+}
+
+
